@@ -10,16 +10,17 @@ class Counter extends Component {
         imageUrl:"https://picsum.photos/200"
     }
 
-    styles ={
+    // styles ={
 
-        fontSize : 10,
-        fontWeight : "bold"
-    }
+    //     fontSize : 10,
+    //     fontWeight : "bold"
+    // }
     render() { 
     
         return <div className="m-5">   
                     {/* <img src={this.state.imageUrl} alt="" /> */}
-                   <span style={this.styles} className='badge badge-danger m-3 p-2'>{this.formatCount()}</span>
+                    {/* The below mentioned styling is called Inline styling */}
+                   <span style={{fontSize : 10}} className='badge badge-danger m-3 p-2'>{this.formatCount()}</span>
                    <button className='btn btn-primary'>Increment</button>
                </div>
     }
