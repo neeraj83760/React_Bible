@@ -4,11 +4,14 @@ function State() {
 
 // Jaise hi state update hoga poora State function re-render hoga    
 
-const [data, setData] = useState('Anil');
+// const [data, setData] = useState('Anil');
+
+const [data, setData] = useState(0)
 
 function onUpdate(){
 
-    setData('Rahul')
+    // setData('Rahul')
+    setData(data +1)
 }
 
 console.warn("-------------")
