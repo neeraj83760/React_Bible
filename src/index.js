@@ -5,6 +5,7 @@ import './index.css';
 // import 'bootstrap/dist/css/bootstrap.css';
 import State from './Components/State';
 import StateUsingClass from './Components/StateUsingClass';
+import Student from './PropsWithFunctionalComponent/Student';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -13,6 +14,9 @@ root.render(
   {/* <App /> */}
   {/* <State /> */}
   <StateUsingClass />
+  <Student name ='Neeraj'/>
+  <Student name ='Raju'/> 
+ 
   </React.StrictMode>
 );
 

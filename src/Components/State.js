@@ -1,5 +1,8 @@
 import {useState} from 'react'
 
+// VVVIMP Point : we cant use state outside the component
+// Also, State public hoti hai naa ki private 
+
 function State() {
 
 // Jaise hi state update hoga poora State function re-render hoga    
