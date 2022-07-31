@@ -1,5 +1,7 @@
 function Student(props){
 
+    console.log(props)
+
 return(
 
     <div style={{margin : '10px'}}>
