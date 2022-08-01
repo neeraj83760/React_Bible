@@ -10,7 +10,7 @@ constructor(){
 
         data: 'Anil'
     }
-}
+}   
 
 updateData(){
 

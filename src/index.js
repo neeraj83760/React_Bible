@@ -9,7 +9,7 @@ import StateUsingClass from './Components/StateUsingClass';
 import Student from './PropsWithFunctionalComponent/Student';
 import Student1 from './PropswithClassComponent/Student1';
 import Input from './GetInputBoxValue/Input';
-
+import App1 from './HideandShowElement/App1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,6 +23,7 @@ root.render(
   <Student name ='Ram' address='DLF Phase 3'/>
   <Student1 name='DON'email = 'sonu@gmail.com'/>
   <Input />
+  <App1 />
   </React.StrictMode>
 );
 

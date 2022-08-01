@@ -13,9 +13,8 @@ function App() {
   console.warn("--------------")
   return (
     <div className="App">
-      <h1>{name}</h1>
-
-      <button className='btn btn-primary' onClick={updateData}>Update Name</button>
+    <h1>{name}</h1>
+    <button className='btn btn-primary' onClick={updateData}>Update Name</button>
     </div>
   );
 }
