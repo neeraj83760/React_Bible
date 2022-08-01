@@ -7,6 +7,7 @@ import './index.css';
 // import State from './Components/State';
 import StateUsingClass from './Components/StateUsingClass';
 import Student from './PropsWithFunctionalComponent/Student';
+import Student1 from './PropswithClassComponent/Student1';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,8 @@ root.render(
   <StateUsingClass />
   <Student name ='Neeraj'/>
   <Student name ='Ram' address='DLF Phase 3'/>
+  <Student1 name='DON'email = 'sonu@gmail.com'/>
+
   </React.StrictMode>
 );
 
