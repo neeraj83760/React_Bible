@@ -10,6 +10,7 @@ import Student from './PropsWithFunctionalComponent/Student';
 import Student1 from './PropswithClassComponent/Student1';
 import Input from './GetInputBoxValue/Input';
 import App1 from './HideandShowElement/App1';
+import Form from './Basic_Form/Form'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,12 +19,13 @@ root.render(
   <React.StrictMode>
   {/* <App /> */}
   {/* <State /> */}
-  <StateUsingClass />
+  {/* <StateUsingClass />
   <Student name ='Neeraj'/>
   <Student name ='Ram' address='DLF Phase 3'/>
   <Student1 name='DON'email = 'sonu@gmail.com'/>
   <Input />
-  <App1 />
+  <App1 /> */}
+  <Form />
   </React.StrictMode>
 );
 
