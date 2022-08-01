@@ -1,7 +1,8 @@
 import React from "react";
 
 class Student1 extends React.Component {
-
+//Interview question :   App jo bhi props pass karte ho functional and class component
+// me usse app component me recieve karne ke baad modify nahi kar sakte 
     render(){
         console.log(this.props)
         return(
