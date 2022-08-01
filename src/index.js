@@ -11,6 +11,7 @@ import Student1 from './PropswithClassComponent/Student1';
 import Input from './GetInputBoxValue/Input';
 import App1 from './HideandShowElement/App1';
 import Form from './Basic_Form/Form'
+import Rendering from './Conditional_rendering/Rendering'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,7 +26,8 @@ root.render(
   <Student1 name='DON'email = 'sonu@gmail.com'/>
   <Input />
   <App1 /> */}
-  <Form />
-  </React.StrictMode>
+  {/* <Form /> */}
+  <Rendering />
+ </React.StrictMode>
 );
 
