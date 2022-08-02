@@ -12,6 +12,7 @@ import Input from './GetInputBoxValue/Input';
 import App1 from './HideandShowElement/App1';
 import Form from './Basic_Form/Form'
 import Rendering from './Conditional_rendering/Rendering'
+import App2 from './/PassFunctions_Asprops/App2'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,7 +28,8 @@ root.render(
   <Input />
   <App1 /> */}
   {/* <Form /> */}
-  <Rendering />
+  {/* <Rendering /> */}
+  <App2 />
  </React.StrictMode>
 );
 
