@@ -13,6 +13,8 @@ import App1 from './HideandShowElement/App1';
 import Form from './Basic_Form/Form'
 import Rendering from './Conditional_rendering/Rendering'
 import App2 from './/PassFunctions_Asprops/App2'
+import App3 from './/LifeCycleMethods/App3'
+import App4 from './/RenderLifeCycleinReact/App4'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,7 +31,10 @@ root.render(
   <App1 /> */}
   {/* <Form /> */}
   {/* <Rendering /> */}
-  <App2 />
+  {/* <App2 /> */}
+  {/* <App3 /> */}
+
+  <App4 />
  </React.StrictMode>
 );
 
