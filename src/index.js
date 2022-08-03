@@ -20,6 +20,7 @@ import App6 from './/ComponentDidUpdate/App6'
 import App7 from './/ComponentDidUpdate/App7'
 import App8 from './/ShouldComponentUpdate/App8'
 import App9 from './ComponentWillUnmount/App9';
+import App10 from './HooksInReact/App10';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -45,7 +46,8 @@ root.render(
   {/* <App7 /> */}
   {/* <App8 /> */}
 
-  <App9 />
+  {/* <App9 /> */}
+  <App10 />
  </React.StrictMode>
 );
 
