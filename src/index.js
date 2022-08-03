@@ -18,6 +18,7 @@ import App4 from './/RenderLifeCycleinReact/App4'
 import App5 from './/ComponentDidMount/App5'
 import App6 from './/ComponentDidUpdate/App6'
 import App7 from './/ComponentDidUpdate/App7'
+import App8 from './/ShouldComponentUpdate/App8'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -40,7 +41,8 @@ root.render(
   {/* <App4 /> */}
   {/* <App5/>  */}
   {/* <App6 /> */}
-  <App7 />
+  {/* <App7 /> */}
+  <App8 />
  </React.StrictMode>
 );
 
