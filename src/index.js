@@ -16,6 +16,8 @@ import App2 from './/PassFunctions_Asprops/App2'
 import App3 from './/LifeCycleMethods/App3'
 import App4 from './/RenderLifeCycleinReact/App4'
 import App5 from './/ComponentDidMount/App5'
+import App6 from './/ComponentDidUpdate/App6'
+import App7 from './/ComponentDidUpdate/App7'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -36,7 +38,9 @@ root.render(
   {/* <App3 /> */}
 
   {/* <App4 /> */}
-  <App5/> 
+  {/* <App5/>  */}
+  {/* <App6 /> */}
+  <App7 />
  </React.StrictMode>
 );
 
