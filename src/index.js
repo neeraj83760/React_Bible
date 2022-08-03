@@ -15,6 +15,7 @@ import Rendering from './Conditional_rendering/Rendering'
 import App2 from './/PassFunctions_Asprops/App2'
 import App3 from './/LifeCycleMethods/App3'
 import App4 from './/RenderLifeCycleinReact/App4'
+import App5 from './/ComponentDidMount/App5'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -34,7 +35,8 @@ root.render(
   {/* <App2 /> */}
   {/* <App3 /> */}
 
-  <App4 />
+  {/* <App4 /> */}
+  <App5/> 
  </React.StrictMode>
 );
 
