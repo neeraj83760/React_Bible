@@ -5,22 +5,23 @@ import './index.css';
 // import App from './App';
 // import 'bootstrap/dist/css/bootstrap.css';
 // import State from './Components/State';
-import StateUsingClass from './Components/StateUsingClass';
-import Student from './PropsWithFunctionalComponent/Student';
-import Student1 from './PropswithClassComponent/Student1';
-import Input from './GetInputBoxValue/Input';
-import App1 from './HideandShowElement/App1';
-import Form from './Basic_Form/Form'
-import Rendering from './Conditional_rendering/Rendering'
-import App2 from './/PassFunctions_Asprops/App2'
-import App3 from './/LifeCycleMethods/App3'
-import App4 from './/RenderLifeCycleinReact/App4'
-import App5 from './/ComponentDidMount/App5'
-import App6 from './/ComponentDidUpdate/App6'
-import App7 from './/ComponentDidUpdate/App7'
-import App8 from './/ShouldComponentUpdate/App8'
-import App9 from './ComponentWillUnmount/App9';
-import App10 from './HooksInReact/App10';
+// import StateUsingClass from './Components/StateUsingClass';
+// import Student from './PropsWithFunctionalComponent/Student';
+// import Student1 from './PropswithClassComponent/Student1';
+// import Input from './GetInputBoxValue/Input';
+// import App1 from './HideandShowElement/App1';
+// import Form from './Basic_Form/Form'
+// import Rendering from './Conditional_rendering/Rendering'
+// import App2 from './/PassFunctions_Asprops/App2'
+// import App3 from './/LifeCycleMethods/App3'
+// import App4 from './/RenderLifeCycleinReact/App4'
+// import App5 from './/ComponentDidMount/App5'
+// import App6 from './/ComponentDidUpdate/App6'
+// import App7 from './/ComponentDidUpdate/App7'
+// import App8 from './/ShouldComponentUpdate/App8'
+// import App9 from './ComponentWillUnmount/App9';
+// import App10 from './HooksInReact/App10';
+import App11 from './HooksInReact/UseEffectHook/App11';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -47,7 +48,9 @@ root.render(
   {/* <App8 /> */}
 
   {/* <App9 /> */}
-  <App10 />
+  {/* <App10 /> */}
+
+  <App11 />
  </React.StrictMode>
 );
 
