@@ -22,7 +22,8 @@ import './index.css';
 // import App9 from './ComponentWillUnmount/App9';
 // import App10 from './HooksInReact/App10';
 // import App11 from './HooksInReact/UseEffectHook/App11';
-import App12 from './HooksInReact/UseEffectHook/App12';
+// import App12 from './HooksInReact/UseEffectHook/App12';
+import App13 from './Style_TypesInReactJS/App13';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -52,7 +53,8 @@ root.render(
   {/* <App10 /> */}
 
   {/* <App11 /> */}
-  <App12 />
+  {/* <App12 /> */}
+  <App13 />
  </React.StrictMode>
 );
 
