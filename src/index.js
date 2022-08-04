@@ -21,7 +21,8 @@ import './index.css';
 // import App8 from './/ShouldComponentUpdate/App8'
 // import App9 from './ComponentWillUnmount/App9';
 // import App10 from './HooksInReact/App10';
-import App11 from './HooksInReact/UseEffectHook/App11';
+// import App11 from './HooksInReact/UseEffectHook/App11';
+import App12 from './HooksInReact/UseEffectHook/App12';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -50,7 +51,8 @@ root.render(
   {/* <App9 /> */}
   {/* <App10 /> */}
 
-  <App11 />
+  {/* <App11 /> */}
+  <App12 />
  </React.StrictMode>
 );
 
