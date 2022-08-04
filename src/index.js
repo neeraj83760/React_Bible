@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import { useState } from 'react';
 // import App from './App';
-// import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import State from './Components/State';
 // import StateUsingClass from './Components/StateUsingClass';
 // import Student from './PropsWithFunctionalComponent/Student';
@@ -23,7 +23,8 @@ import './index.css';
 // import App10 from './HooksInReact/App10';
 // import App11 from './HooksInReact/UseEffectHook/App11';
 // import App12 from './HooksInReact/UseEffectHook/App12';
-import App13 from './Style_TypesInReactJS/App13';
+// import App13 from './Style_TypesInReactJS/App13';
+import Bootstrap from './BootstrapInreactJS/Bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -54,7 +55,8 @@ root.render(
 
   {/* <App11 /> */}
   {/* <App12 /> */}
-  <App13 />
+  {/* <App13 /> */}
+  <Bootstrap />
  </React.StrictMode>
 );
 
