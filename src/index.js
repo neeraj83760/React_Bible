@@ -25,7 +25,8 @@ import './index.css';
 // import App12 from './HooksInReact/UseEffectHook/App12';
 // import App13 from './Style_TypesInReactJS/App13';
 // import Bootstrap from './BootstrapInreactJS/Bootstrap';
-import App14 from './HandleArrayWithList/App14';
+// import App14 from './HandleArrayWithList/App14';
+import App15 from './BootstrapInreactJS/App15';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -59,7 +60,8 @@ root.render(
   {/* <App12 /> */}
   {/* <App13 /> */}
   {/* <Bootstrap /> */}
-  <App14 />
+  {/* <App14 /> */}
+  <App15 />
  </React.StrictMode>
 );
 
