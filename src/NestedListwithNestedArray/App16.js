@@ -129,15 +129,17 @@ return (
 <tbody>
 
 <tr>
+    <td>S.No</td>
     <td>Name</td>
     <td>Email</td>
     <td>Address</td>
 </tr>
 
 {
- Users.map((item)=>
+ Users.map((item,i)=>
  
- <tr>
+ <tr key={i}>
+    <td>{i}</td> 
     <td>{item.name}</td>
     <td>{item.email}</td>
     <td>
