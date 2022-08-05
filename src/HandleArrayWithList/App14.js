@@ -1,5 +1,8 @@
 import React from 'react'
 
+// Jab hum below mentioned table display karayenge browser pe to we will get a warning on console
+//  Warning: Each child in a list should have a unique "key" prop.
+
 function App14(){
 // const Students = ['Anil','Raaju','Sanju','Manoj']
 
