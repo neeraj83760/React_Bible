@@ -27,7 +27,8 @@ import './index.css';
 // import Bootstrap from './BootstrapInreactJS/Bootstrap';
 // import App14 from './HandleArrayWithList/App14';
 // import App15 from './BootstrapInreactJS/App15';
-import App16 from './NestedListwithNestedArray/App16';
+// import App16 from './NestedListwithNestedArray/App16';
+import App17 from './ReuseComponent/App17';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -63,7 +64,9 @@ root.render(
   {/* <Bootstrap /> */}
   {/* <App14 /> */}
   {/* <App15 /> */}
-  <App16 />
+  {/* <App16 /> */}
+  <App17 />
+
  </React.StrictMode>
 );
 
