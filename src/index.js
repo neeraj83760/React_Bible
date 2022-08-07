@@ -29,7 +29,9 @@ import './index.css';
 // import App15 from './BootstrapInreactJS/App15';
 // import App16 from './NestedListwithNestedArray/App16';
 // import App17 from './ReuseComponent/App17';
-import Frag from './ReactFragment/Frag';
+// import Frag from './ReactFragment/Frag';
+// import App18 from './LiftingStateUP/App18';
+import App19 from './PureComponents/App19';
 
 
 
@@ -68,7 +70,9 @@ root.render(
   {/* <App15 /> */}
   {/* <App16 /> */}
   {/* <App17 /> */}
-  <Frag />
+  {/* <Frag /> */}
+  {/* <App18 /> */}
+  <App19 />
 
  </React.StrictMode>
 );

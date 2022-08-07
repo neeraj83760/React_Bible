@@ -1,0 +1,11 @@
+// Pure Component aapke component ki rerendering ko rokta hai 
+// Matlab usse baar baar execute hone se rokta hai 
+
+// Maan lo aapne ek state ke andar ek name set kiya hai ANIL aur ek button ki
+// click ke updar same naam aap baar baar set karwa rahe ho aur button Pe
+// baar baar click kiye ja rahe ho to har baar kya hota hai ki aapka component
+rerender hota hai check karta hai ki state nayi hai ki nahi uske baad poore
+component ko rerender karta hai 
+
+// Pure component ye match karega ki jo pehle waala naam tha state me aur jo ab daala hai
+dono same hai ya alag alag .... agar dono alag alag hai tabhi rerendering hogi 
