@@ -1,0 +1,7 @@
+useMemo : ye application ki performance ko enhance kartah hai 
+For Example : Jab bhi hum state and props ka saath kaam kar rahe hote hai to tabhi humara 
+component unwantedly update hota rehta hai humien uski jarurat nahi hoti 
+firbhi wo update hota rehta hai same values ke saath me hi  
+
+For example : manine state update kari kuch functions apne aap call hote rehte hai
+jo ki call humien nahi karne chahiye 

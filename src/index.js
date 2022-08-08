@@ -31,7 +31,8 @@ import './index.css';
 // import App17 from './ReuseComponent/App17';
 // import Frag from './ReactFragment/Frag';
 // import App18 from './LiftingStateUP/App18';
-import App19 from './PureComponents/App19';
+// import App19 from './PureComponents/App19';
+import App20 from './UseMemo/App20';
 
 
 
@@ -72,7 +73,9 @@ root.render(
   {/* <App17 /> */}
   {/* <Frag /> */}
   {/* <App18 /> */}
-  <App19 />
+  {/* <App19 /> */}
+  
+  <App20 />
 
  </React.StrictMode>
 );
