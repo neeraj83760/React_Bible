@@ -1,0 +1,11 @@
+key point : ReactJS khud bolta hai humien ref ka kamse kam use karna hai . ReactJS bolta hai
+ki aap DOM ko directly manupulate mat karo.. DOM ko manupulate karoge to ReactJS slow ho jaayegi
+sirf state and props ke saath kehlo 
+
+for example: hide show karene ke liye hum ReactJS me state ka use karte hai ...aisa nahi hota kahi
+bhi jabardasti CSS add kar di ...lekin ref reactjs ka ulta karta hai ...wo aisa karta hai ...jabardasti
+kisi ko hide or show karene ki power hai isme ....basically ref DOM ko manupulate kar sakta hai aur reactjs
+bolta hai ki DOM ko manupulate nahi karna 
+
+ref ko humesa emerjency ke andar hi use karna hai..kyonki ye DOM ko directly manupulate
+karta hai 
