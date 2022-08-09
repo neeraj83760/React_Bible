@@ -1,0 +1,4 @@
+Kai baari humara state or Props se kaam nahi chalta to humein useRef ka hook 
+use karna padata hai DOM ko manipulate karne ke liye
+humein HTML ke andar direct modification karne hote hai for example: input box Kai
+value get karni hai ya text color change karna hai directly html elements ka etc
