@@ -1,0 +1,8 @@
+Ye samjhlo ki ye useRef ka hi advance version hai 
+
+hum useRef mai ye kar rahe the ki html elements ki properties change 
+kar rahe the ek button ki clicking par which we can also say that 
+we were modifying DOM on a button click but what happens when the 
+button and the respective HTMl elements are in diff diff components so 
+in that case how we will MOdify DOM ...here comes ForwardRef to rescue ...
+hum isse use karke as a props pass karenge from one component to another

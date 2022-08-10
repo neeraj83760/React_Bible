@@ -34,10 +34,10 @@ import './index.css';
 // import App19 from './PureComponents/App19';
 // import App20 from './UseMemo/App20';
 // import Ref from './RefInReactJS/Ref'
-import App21 from './UseRefHook/App21'
+// import App21 from './UseRefHook/App21'
+import App22 from './ForwardRef/App22'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
 
 root.render(
   <React.StrictMode>
@@ -77,7 +77,8 @@ root.render(
   
   {/* <App20 /> */}
   {/* <Ref /> */}
-  <App21 />
+  {/* <App21 /> */}
+  <App22 />
 
  </React.StrictMode>
 );
