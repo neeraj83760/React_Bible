@@ -1,0 +1,9 @@
+Agar koi ControlledComponent ki baat kare to samhjlo ki uske andar input field hai ya
+fir ek poora form hai jiske andar 3-4 input fields hai 
+
+jab hum reactjs me input fields ko state ke through control karte hai to unko hum
+kehte hai controlled components 
+
+Uncontrolled Components directly DOM ke through handle hote hai jaise ki Jquery or javascript ke through
+hum getElementbyID ke through particular element ki value ko inkaal lete hai wo takrika hota hai
+Uncontrolled jo ki DOM ke through handle hote hai 
