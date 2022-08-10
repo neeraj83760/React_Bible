@@ -16,7 +16,7 @@ function App23(){
 
         <input type="text" value={item} onChange={(e)=>{setItem(e.target.value)}}/>
 
-        <h3>{val}</h3>
+        <h3>{val}</h3> 
 
         </div>
     )
