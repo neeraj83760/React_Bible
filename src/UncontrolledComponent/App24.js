@@ -25,7 +25,6 @@ function App24(){
 
     return(
         <>
-
         <h1 className='m-1'>UnControlled Component!! </h1>
 
         <form onSubmit={submitForm}>
