@@ -37,7 +37,9 @@ import './index.css';
 // import App21 from './UseRefHook/App21'
 // import App22 from './ForwardRef/App22'
 // import App23 from './ControlledComponent/App23'
-import App24 from './UncontrolledComponent/App24'
+// import App24 from './UncontrolledComponent/App24'
+// import App25 from './Simple_HOC/App25'
+import App26 from './Routing_Setup/App26'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -82,7 +84,9 @@ root.render(
   {/* <App21 /> */}
   {/* <App22 /> */}
   {/* <App23 /> */}
-  <App24 />
+  {/* <App24 /> */}
+  {/* <App25 />    */}
+  <App26 />
 
  </React.StrictMode>
 );

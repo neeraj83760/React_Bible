@@ -1,0 +1,5 @@
+Ek component to dusre componeent ko as a props leta ho aur ek alag se component return karta ho 
+higher order component kehlata hai 
+
+for example ek component hoga jo component hi as input lega and component hi as a output dega 
+
