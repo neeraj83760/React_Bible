@@ -15,7 +15,7 @@ function App26(){
                     <Route path="about" element={<AboutUs />}></Route>
                 </Routes>
             </Router>
-        </div>
+        </div>  
     )
 
 }

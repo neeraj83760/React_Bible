@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import {BrowserRouter as Router} from 'react-router-dom'
+
 // import { useState } from 'react';
 // import App from './App';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,7 +41,8 @@ import './index.css';
 // import App23 from './ControlledComponent/App23'
 // import App24 from './UncontrolledComponent/App24'
 // import App25 from './Simple_HOC/App25'
-import App26 from './Routing_Setup/App26'
+// import App26 from './Routing_Setup/App26'
+import App27 from './RoutingExampleWithbestPractices/App27';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -86,7 +89,8 @@ root.render(
   {/* <App23 /> */}
   {/* <App24 /> */}
   {/* <App25 />    */}
-  <App26 />
+  {/* <App26 /> */}
+ <Router> <App27 /></Router>
 
  </React.StrictMode>
 );
