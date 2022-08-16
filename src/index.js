@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {BrowserRouter as Router} from 'react-router-dom'
+// import {BrowserRouter as Router} from 'react-router-dom'
 
 // import { useState } from 'react';
 // import App from './App';
@@ -42,7 +42,8 @@ import {BrowserRouter as Router} from 'react-router-dom'
 // import App24 from './UncontrolledComponent/App24'
 // import App25 from './Simple_HOC/App25'
 // import App26 from './Routing_Setup/App26'
-import App27 from './RoutingExampleWithbestPractices/App27';
+// import App27 from './RoutingExampleWithbestPractices/App27';
+import App28 from './404Page_Not_Found/App28'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -90,7 +91,8 @@ root.render(
   {/* <App24 /> */}
   {/* <App25 />    */}
   {/* <App26 /> */}
- <Router> <App27 /></Router>
+ {/* <Router> <App27 /></Router> */}
+ <App28 />
 
  </React.StrictMode>
 );
