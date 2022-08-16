@@ -1,0 +1,4 @@
+Maan lo aaj aap apni website ki ek list pe routing lagana chahte ho 
+to aap static routing ka use karoge but that is not a correct way in case kal
+aapke paas 1000 of products aa gaye to manually static routing lagana is quite 
+hectic that's why we use Dynamic Routing 

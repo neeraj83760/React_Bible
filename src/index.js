@@ -43,7 +43,8 @@ import './index.css';
 // import App25 from './Simple_HOC/App25'
 // import App26 from './Routing_Setup/App26'
 // import App27 from './RoutingExampleWithbestPractices/App27';
-import App28 from './404Page_Not_Found/App28'
+// import App28 from './404Page_Not_Found/App28'
+import App29 from './Dynamic_Routing/App29'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -92,7 +93,8 @@ root.render(
   {/* <App25 />    */}
   {/* <App26 /> */}
  {/* <Router> <App27 /></Router> */}
- <App28 />
+ {/* <App28 /> */}
+  <App29 />
 
  </React.StrictMode>
 );
