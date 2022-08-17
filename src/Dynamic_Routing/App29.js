@@ -1,5 +1,5 @@
 import React from "react"
-import {BrowserRouter as Router, Link, Route} from "react-router-dom"
+import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom"
 import User29 from "./User29"
 
 function App29(){
@@ -22,10 +22,10 @@ function App29(){
             users.map((item)=> 
             
             <div className="">
-            <Link to={'/users/'+ item.id}><h6>{item.name}</h6></Link>          
+            <Link to={'/user/'+ item.name}><h6>{item.name}</h6></Link>          
             </div>) 
             }
-        <Route path='/user/:id'><User29 /></Route>    
+         <Routes><Route path="/user/:name" element={<User29 />} /></Routes>
         </Router>
         </div>
           )
