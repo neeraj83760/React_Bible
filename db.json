@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret"
+    },
+    {
+      "id": 2,
+      "name": "Neeraj",
+      "username": "Nee45"
+    },
+    {
+      "id": 3,
+      "name": "Swati",
+      "username": "Swa34"
+    },
+    {
+      "id": 4,
+      "name": "Priyanka",
+      "username": "Pri190"
+    },
+    {
+      "id": 6,
+      "name": "Raju",
+      "username": "Raj11"
+    },
+    {
+      "id": 7,
+      "name": "Sonu",
+      "username": "sonu12"
+    }
+  ]
+}
