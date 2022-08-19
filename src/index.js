@@ -50,7 +50,8 @@ import './index.css';
 // import App32 from './Delete_MethodwithAPI/App32';
 // import App33 from './CallGetMethod_Api/App33'
 // import App34 from './Pre_filled_FORM/App34'
-import App35 from './Update_DatawithPUTmethod/App35'
+// import App35 from './Update_DatawithPUTmethod/App35'
+import App36 from './Previous_State_InfunctionalComponent/App36';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -96,17 +97,18 @@ root.render(
   {/* <App22 /> */}
   {/* <App23 /> */}
   {/* <App24 /> */}
-  {/* <App25 />    */}
+  {/* <App25 /> */}
   {/* <App26 /> */}
  {/* <Router> <App27 /></Router> */}
  {/* <App28 /> */}
   {/* <App29 /> */}
   {/* <App30 /> */}
- {/* <App31 />   */}
+ {/* <App31 />  */}
  {/* <App32 /> */}
  {/* <App33/> */}
  {/* <App34 /> */}
- <App35 />
+ {/* <App35 /> */}
+ <App36 />
  </React.StrictMode>
 );
 
