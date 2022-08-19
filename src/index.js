@@ -49,7 +49,8 @@ import './index.css';
 // import App31 from './POST_MethodwithAPI/App31'
 // import App32 from './Delete_MethodwithAPI/App32';
 // import App33 from './CallGetMethod_Api/App33'
-import App34 from './Pre_filled_FORM/App34'
+// import App34 from './Pre_filled_FORM/App34'
+import App35 from './Update_DatawithPUTmethod/App35'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -104,7 +105,8 @@ root.render(
  {/* <App31 />   */}
  {/* <App32 /> */}
  {/* <App33/> */}
- <App34 />
+ {/* <App34 /> */}
+ <App35 />
  </React.StrictMode>
 );
 

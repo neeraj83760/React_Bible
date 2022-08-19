@@ -4,41 +4,38 @@
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
-      "email":"leanne@test.com"
+      "email": "leanne@test.com"
     },
     {
       "id": 2,
       "name": "Neeraj",
       "username": "Nee45",
-      "email":"nee@test.com"
-      
-
+      "email": "nee@test.com"
     },
     {
       "id": 3,
       "name": "Swati",
       "username": "Swa34",
-      "email":"swati@test.com"
+      "email": "swati@test.com"
     },
     {
       "id": 4,
       "name": "Priyanka",
       "username": "Pri190",
-      "email":"pri@test.com"
-      
-
+      "email": "pri@test.com"
     },
     {
-      "id": 5,
-      "name": "Raju",
+      "name": "Raju Srivastava",
       "username": "Raj11",
-      "email":"Raj@test.com"
+      "email": "Raj@test.in",
+      "userId": 5,
+      "id": 5
     },
     {
       "id": 6,
       "name": "Sonu",
       "username": "sonu12",
-      "email":"sonu@test.com"
+      "email": "sonu@test.com"
     }
   ]
 }
