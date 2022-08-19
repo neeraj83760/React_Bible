@@ -36,6 +36,8 @@ function updateCounter(){
     for(let i = 0; i < 5; i++)
     {
         // setCount(count + 1) 
+        // You can also write the below line of code like this: setCount((prev)=>{return prev +1})
+        // If u don't want to write the 'return keyword then u have to remove the curely braces as well' 
         setCount((prev)=> prev +1)
 
     }
