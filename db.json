@@ -3,32 +3,42 @@
     {
       "id": 1,
       "name": "Leanne Graham",
-      "username": "Bret"
+      "username": "Bret",
+      "email":"leanne@test.com"
     },
     {
       "id": 2,
       "name": "Neeraj",
-      "username": "Nee45"
+      "username": "Nee45",
+      "email":"nee@test.com"
+      
+
     },
     {
       "id": 3,
       "name": "Swati",
-      "username": "Swa34"
+      "username": "Swa34",
+      "email":"swati@test.com"
     },
     {
       "id": 4,
       "name": "Priyanka",
-      "username": "Pri190"
+      "username": "Pri190",
+      "email":"pri@test.com"
+      
+
+    },
+    {
+      "id": 5,
+      "name": "Raju",
+      "username": "Raj11",
+      "email":"Raj@test.com"
     },
     {
       "id": 6,
-      "name": "Raju",
-      "username": "Raj11"
-    },
-    {
-      "id": 7,
       "name": "Sonu",
-      "username": "sonu12"
+      "username": "sonu12",
+      "email":"sonu@test.com"
     }
   ]
 }

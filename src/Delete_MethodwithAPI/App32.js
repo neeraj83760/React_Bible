@@ -53,7 +53,8 @@ function App32(){
             <td>Id</td>
             <td>Name</td>
             <td>Username</td>
-            <td>Delete Items</td>
+            <td>Email</td>
+            <td>Delete Record</td>
         </tr>
         <tbody>
             {
@@ -63,6 +64,7 @@ function App32(){
                 <td>{item.id}</td>
                 <td>{item.name}</td>
                 <td>{item.username}</td>
+                <td>{item.email}</td>
                 <td><button class="btn btn-primary" onClick={()=>deleteUser(item.id)}>Delete</button></td>
             </tr>
     

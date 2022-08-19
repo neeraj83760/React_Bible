@@ -47,8 +47,9 @@ import './index.css';
 // import App29 from './Dynamic_Routing/App29'
 // import App30 from './CallGetMethod_Api/App30'
 // import App31 from './POST_MethodwithAPI/App31'
-import App32 from './Delete_MethodwithAPI/App32';
+// import App32 from './Delete_MethodwithAPI/App32';
 // import App33 from './CallGetMethod_Api/App33'
+import App34 from './Pre_filled_FORM/App34'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -101,8 +102,9 @@ root.render(
   {/* <App29 /> */}
   {/* <App30 /> */}
  {/* <App31 />   */}
- <App32 />
+ {/* <App32 /> */}
  {/* <App33/> */}
+ <App34 />
  </React.StrictMode>
 );
 
