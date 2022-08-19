@@ -1,0 +1,5 @@
+Bina useEffect hook ke aap previous props get nahi kar sakete ho functional component me
+
+Iski jarurat tab padti hai maanlo aapko previous props and current props ki value 
+me diffrence hai tabhi apni application me change karwana hai warna koi change nahi 
+karwana application me.. to waha jarurat padti hai previous props ki value ki  
