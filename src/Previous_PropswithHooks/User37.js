@@ -17,7 +17,8 @@ function User37(props){
     return(
         <div className="">
          <h1>Current Val  :   {props.count}</h1>
-         <h2>Previous Val : {previousProps}</h2>   
+         <h2>Previous Val : {previousProps}</h2> 
+         <h3>Diffrence between Curr Val and Previous Val is : {previousProps - props.count}</h3>  
         </div>
     )
 }
