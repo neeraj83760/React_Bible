@@ -1,0 +1,23 @@
+maano lo humein DO components ko aapas me communicate karwana hai ...agar wo child parent hain
+to koi dikkat nahi hai ... for example:
+
+maan lo 1,2,3,4,5,6 components hain to agar humien 2 compnent ka data bhejna hai 3 ko to pehle humien
+usse component 1 ko send karna hoga tabhi hum usse component 3 me send kar paayenge ..directly send
+nahi hoga component 2 se 3 me ...... directly lekar jaana hai to humien Redux use karna padega
+but redux kaafi complex ho jaata hai to uske liye react ne ek cheez porvide ki hai Context API 
+
+Context API me do teen cheez important hai :
+
+1 > Provider : Ye data ko set karta hai ..ki humien kya kya data provide karna hai poori application
+ko ... Jitni bhi API humari context ke Andar aayegi uske andar har jagah pe data provide karta hai
+
+
+2> Consumer  : Consumer ka matlab jo data Provider provide karta hai usse consume karna 
+
+      1
+     / \
+    /   \ 
+   2     3 
+  / \    / 
+ /   \  /
+4     5 6

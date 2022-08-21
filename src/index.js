@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App38 from './Context_API/Components/App39';
 import './index.css';
 // import {BrowserRouter as Router} from 'react-router-dom'
 
@@ -52,7 +53,8 @@ import './index.css';
 // import App34 from './Pre_filled_FORM/App34'
 // import App35 from './Update_DatawithPUTmethod/App35'
 // import App36 from './Previous_State_InfunctionalComponent/App36';
-import App37 from './Previous_PropswithHooks/App37';
+// import App37 from './Previous_PropswithHooks/App37';
+import App39 from './Context_API/Components/App39';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -110,7 +112,8 @@ root.render(
  {/* <App34 /> */}
  {/* <App35 /> */}
  {/* <App36 /> */}
- <App37 />
+ {/* <App37 /> */}
+ <App39 />
  </React.StrictMode>
 );
 
