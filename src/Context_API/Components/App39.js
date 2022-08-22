@@ -3,7 +3,7 @@ import {CommonContext} from './CommonContext'
 import Main from './Main'
 import UpdateButton from './UpdateButton'
 import Header from './Header'
-import Footer from './Footer'
+import Footer from './Footer' 
 class App39 extends React.Component {
 
     constructor() {

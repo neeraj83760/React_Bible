@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App38 from './Context_API/Components/App39';
+// import App38 from './Context_API/Components/App39';
 import './index.css';
 // import {BrowserRouter as Router} from 'react-router-dom'
 
@@ -11,7 +11,7 @@ import './index.css';
 // import StateUsingClass from './Components/StateUsingClass';
 // import Student from './PropsWithFunctionalComponent/Student';
 // import Student1 from './PropswithClassComponent/Student1';
-// import Input from './GetInputBoxValue/Input';
+import Input from './GetInputBoxValue/Input';
 // import App1 from './HideandShowElement/App1';
 // import Form from './Basic_Form/Form'
 // import Rendering from './Conditional_rendering/Rendering'
@@ -62,12 +62,12 @@ root.render(
   <React.StrictMode>
   {/* <App /> */}
   {/* <State /> */}
-  {/* <StateUsingClass />
-  <Student name ='Neeraj'/>
-  <Student name ='Ram' address='DLF Phase 3'/>
-  <Student1 name='DON'email = 'sonu@gmail.com'/>
+   {/* <StateUsingClass /> */}
+  {/* <Student name ='Neeraj'/> */}
+  {/* <Student name ='Ram' address='DLF Phase 3'/> */}
+  {/* <Student1 name='DON'email = 'sonu@gmail.com'/> */}
   <Input />
-  <App1 /> */}
+  {/* <App1 />  */}
   {/* <Form /> */}
   {/* <Rendering /> */}
   {/* <App2 /> */}
@@ -113,7 +113,7 @@ root.render(
  {/* <App35 /> */}
  {/* <App36 /> */}
  {/* <App37 /> */}
- <App39 />
+ {/* <App39 /> */}
  </React.StrictMode>
 );
 

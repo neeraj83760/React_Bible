@@ -13,7 +13,7 @@ setPrint(false);
 }    
 
 return(
-    <>
+    <div className='m-5'>
     <h1>Get Input box value</h1>
     {/* <h3>{data}</h3> */}
     {
@@ -21,9 +21,12 @@ return(
       <h1> {data}</h1>
       :null
     }
-    <input type={"text"} onChange={getData}/>
-    <button onClick={()=> setPrint(true)}>Print Value</button>
-    </>
+    {/* OnChange ka matlab jaise jaise hum input box me value input karte rahe waise waise
+        wo humien milti rahe 
+    */}
+    <input className='form-control' style={{width:'50%'}} type={"text"} onChange={getData}/><br /><br />
+    <button className='btn btn-primary' onClick={()=> setPrint(true)}>Print Value</button>
+    </div>
 )
 
 }
