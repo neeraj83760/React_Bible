@@ -29,6 +29,15 @@ constructor(){
 // componentDidUpdate state and props ke update hone ke baad hi chalega jo
 // ki diffrent hai from componentDidMount ke compare me 
 componentDidUpdate(preProps, preState, snapshot) {
+
+      //VVVVIMP point: componentDidUpdate(preProps, preState, snapshot) ka use ye hota hai ki pehle ki jab sabhi
+     // props and state update hoti hai kisi component ki ye lifecycle method tabhi chalta hai.
+    //  Iska use ye hota hai maanlo aapki saari state update hone par koi event perform karwana ho
+   // tab is lifecycle method ka use hota hai ....but always remember ki aap componentDidUpdate ke
+  // Andar app directly state update mat karna ..kyonki ye state ke update hone pe har baar call 
+ // hota hai to infinte loop ban jaayega agar state baar baar update hui to ...isliye
+ // agar kabhi bhi componentDidUpdate ke andar aapko state update karwani bhi ho to conditional 
+ // statement ke andar karwana ... taaki aap infinte loop me jaane se usse rok sako 
      
     // preState matlab counter browser pe the updated value print karega
     // but console me value -1 hogi .... example : browser pe hai 1 to cosole pe
