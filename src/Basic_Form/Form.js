@@ -16,7 +16,7 @@ return(
     <div className="App container">
     <h1>Handle form in React</h1>
     <form action="" onSubmit={getFormData}>
-        <input type="text" placeholder="Enter your Name" onChange={(e)=>setName(e.target.value)} / ><br /><br />
+        <input type="text" placeholder="Enter your Name" onChange={(e)=>setName(e.target.value)} /><br /><br />
         <select name="" id="">
           <option value="">Marvel</option>
           <option value="">DC COMIC</option>

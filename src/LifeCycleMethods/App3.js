@@ -1,7 +1,8 @@
 import React from 'react';  
 
 class App3 extends React.Component {
-
+// Import keypoint :  Constructor class ka object bante hi call ho jaata hai ...to hum ise pehla lifeCyclemethod
+// bhi kehte hai 
 constructor(){
     super()
     console.warn('This is Constructor')
