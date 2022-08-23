@@ -3,6 +3,8 @@ import React from 'react';
 class App3 extends React.Component {
 // Import keypoint :  Constructor class ka object bante hi call ho jaata hai ...to hum ise pehla lifeCyclemethod
 // bhi kehte hai 
+
+// Even compoent ke ready hone se bhi pehle constructor banta hai 
 constructor(){
     super()
     console.warn('This is Constructor')
