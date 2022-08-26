@@ -1,0 +1,17 @@
+searchParams hook :  agar hum url ko dekehe to kai baar data humare pass
+parameters ki form me aata hai like : http://localhost:3000/user/anil
+
+aur kai baar query Params ki form me like: http://localhost:3000/filter?price=10 
+
+or : http://localhost:3000/filter?age=20&city=noida
+
+aur jab use query Params ko humien humien apne webpage pe access karna hota hai 
+tab hum use karte hai search Query Params 
+
+
+Lecture 8 : Navigating programitically : kabhi kabhi humien button ke click 
+ke upar humien navigate karwana padta hai 
+
+Lecture 10: useLocation : jab aap ek router se dusre router pe jaate ho 
+and when u check ki aapko previous router se kya kya mila hai
+ 

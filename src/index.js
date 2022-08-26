@@ -11,7 +11,7 @@ import './index.css';
 // import StateUsingClass from './Components/StateUsingClass';
 // import Student from './PropsWithFunctionalComponent/Student';
 // import Student1 from './PropswithClassComponent/Student1';
-import Input from './GetInputBoxValue/Input';
+// import Input from './GetInputBoxValue/Input';
 // import App1 from './HideandShowElement/App1';
 // import Form from './Basic_Form/Form'
 // import Rendering from './Conditional_rendering/Rendering'
@@ -54,7 +54,8 @@ import Input from './GetInputBoxValue/Input';
 // import App35 from './Update_DatawithPUTmethod/App35'
 // import App36 from './Previous_State_InfunctionalComponent/App36';
 // import App37 from './Previous_PropswithHooks/App37';
-import App39 from './Context_API/Components/App39';
+// import App39 from './Context_API/Components/App39';
+import App40 from './React_Router6v/App40';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -66,7 +67,7 @@ root.render(
   {/* <Student name ='Neeraj'/> */}
   {/* <Student name ='Ram' address='DLF Phase 3'/> */}
   {/* <Student1 name='DON'email = 'sonu@gmail.com'/> */}
-  <Input />
+  {/* <Input /> */}
   {/* <App1 />  */}
   {/* <Form /> */}
   {/* <Rendering /> */}
@@ -114,6 +115,7 @@ root.render(
  {/* <App36 /> */}
  {/* <App37 /> */}
  {/* <App39 /> */}
+ <App40/>
  </React.StrictMode>
 );
 

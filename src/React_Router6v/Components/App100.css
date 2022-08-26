@@ -1,0 +1,37 @@
+.navb li{
+
+    display: inline-block;
+    padding: 10px 5px;
+    
+    
+}
+
+.navb{
+
+    text-align: right;
+}
+
+.navbarlink{
+
+    color: dodgerblue;
+    text-decoration: none;
+
+}
+
+.navbarlink:hover{
+
+    color: blueviolet;
+    
+}
+
+/* below waali 'active' jo class hai wo automatically add ho jaati hai NavLink 
+   element ke saath ye Inbuilt property hai react ki  
+*/
+.active{
+
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+

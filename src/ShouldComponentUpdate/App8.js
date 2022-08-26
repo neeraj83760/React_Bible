@@ -28,6 +28,10 @@ constructor(){
 
 // shouldComponentUpdate ka by default behavior component ko update nahi hone deta 
 // isliye humein return true kar dete bydefault wo false hota hai 
+
+// In short ye method other lifecycle methods ko control karne ke kaam me aata hai
+// hum isse other methods ki rendering ko control kar sakete hai 
+// Also ye updating phase me aata hai to ye state and props ke update hone ke baad hi chalega 
 shouldComponentUpdate(){
 
     console.warn('This is shouldComponentUpdate', this.state.counter)
