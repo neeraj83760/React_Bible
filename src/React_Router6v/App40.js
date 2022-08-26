@@ -8,6 +8,8 @@ import ContactUS from './Nested_Routing/ContactUS';
 import Company from './Nested_Routing/Company';
 import Channel from './Nested_Routing/Channel';
 import Other from './Nested_Routing/Other';
+import Login from './Components/Login'
+import ProtectedRoute from './Components/ProtectedRoute';
 
 // Always remember reactJs ke bhi apne hooks hote hai and 
 // jo package humne use kiya hai : react-router-dom  iske bhi apne inbuilt hook hote hai like
@@ -24,8 +26,15 @@ function App40(){
     <Navbar /> 
    <Routes>
         {/* <Route path='/home' element={<h1>Home Page is this !!</h1>} /> */}
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        {/* <Route path='/' element={<Home />} /> */}
+
+
+        <Route path='/' element={<ProtectedRoute Component={Home} />} />
+  
+       
+     
+        <Route path='/about' element={<ProtectedRoute Component={About} />} />
+        
         {/* '/*' is path equal to astrick ka matlab agar upar ka koi URL match nahi ho raha 
          to message show karega : 404 Error!! ... means 
         */}
@@ -48,6 +57,8 @@ function App40(){
 
 
         </Route>
+
+        <Route path='/login' element={<Login />} />
         
          
    </Routes>

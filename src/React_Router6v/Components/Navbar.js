@@ -31,6 +31,7 @@ function Navbar(){
             <li><NavLink className='navbarlink' to='/user/peter'>Peter</NavLink></li>
             <li><NavLink className='navbarlink' to='/contact'>Contact</NavLink></li>
             <li><NavLink className='navbarlink' to='/filter'>Filter</NavLink></li>
+            <li><NavLink className='navbarlink' to='/login'>Login</NavLink></li>
 
         </ul>
         </div>

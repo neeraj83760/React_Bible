@@ -14,4 +14,14 @@ ke upar humien navigate karwana padta hai
 
 Lecture 10: useLocation : jab aap ek router se dusre router pe jaate ho 
 and when u check ki aapko previous router se kya kya mila hai
+
+Lecture 11: Protected Route : Ye koi feature nahi hai react routing ka ye ek logical
+part rehne wala hai ... iske andar hum ek logic banate hai and us logic ke base pe hum log 
+kuch pages ko user ki access nahi dete maan lo aap apni website ka koi page nahi 
+show karna chahte to aap protected routing ka use kar sakete ho 
+
+ Usse ye hoga jab bhi koi user page access karne ki kosis karega aur wo login 
+ nahi hai to hum usse signin or login page pe redirect kar denge taaki wo login
+ karne ke baad hi un pages ko access kar paaye
+  
  
