@@ -7,9 +7,9 @@ function ContactUS(){
         <div className="">
         <h1>Contact US Page !!!</h1>
         <h2>Here we have some other Business!!</h2>
-        <Link to={'company'}>Company</Link>
-        <Link to={'channel'}>Channel</Link>
-        <Link to={'other'}>Other</Link>
+        <Link to={'company'}>Company</Link> <br /> 
+        <Link to={'channel'}>Channel</Link> <br />
+        <Link to={'other'}>Other</Link> <br />
         <Outlet />
         </div> 
     )

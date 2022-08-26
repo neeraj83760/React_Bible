@@ -40,8 +40,10 @@ function App40(){
 
         <Route path='/contact/' element={<ContactUS />}>
         
-        <Route path= "company" element={<Company />} /> 
+        <Route path= "company"  element={<Company />} />
+
         <Route path="channel" element={<Channel />} />
+        
         <Route path="other" element={<Other />} /> 
 
 

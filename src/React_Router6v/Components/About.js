@@ -11,7 +11,7 @@ function About(){
          it in URL so in that case in the Link element we have to pass state value which is an 
          Object  
         */}
-        <Link to='user/anil' state={{name:'Sanju', age:27 }}>Anil</Link>    
+        <Link to="/user/anil" state={{name:'Sanju', age:27 }}>Anil</Link>    
         </div>
     ) 
 }
